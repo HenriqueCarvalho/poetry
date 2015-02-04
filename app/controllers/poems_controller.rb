@@ -1,6 +1,6 @@
 class PoemsController < ApplicationController
 	def index
-		@poems = Poem.all
+		@poems = Poem.where("published = 'true'")
 	end
 
 	def show
