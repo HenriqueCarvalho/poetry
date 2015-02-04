@@ -1,0 +1,554 @@
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-03 06:21:34 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /var/lib/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (6.1ms)
+Completed 200 OK in 52ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-03 06:21:43 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /var/lib/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (3.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-03 06:30:10 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /var/lib/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (5.4ms)
+Completed 200 OK in 57ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 10.0.2.2 at 2015-02-03 06:30:13 +0000
+Processing by Rails::InfoController#properties as */*
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  Rendered /var/lib/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/info/properties.html.erb (0.5ms)
+Completed 200 OK in 91ms (Views: 12.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/vagrant/projects/poetry" for 10.0.2.2 at 2015-02-03 06:30:25 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vagrant/projects/poetry"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.5) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.0) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.0) lib/rack/server.rb:286:in `start'
+  railties (4.2.0) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.0) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.0) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (33.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (31.4ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (94.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreatePoems (20150203063821)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (5.7ms)[0m  [1mCREATE TABLE "poems" ("id" serial primary key, "title" character varying, "author" character varying, "body" text, "source" character varying, "published" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150203063821"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'poems'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mPoem Load (0.6ms)[0m  SELECT "poems".* FROM "poems"
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "poems" ("published", "author", "title", "source", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["published", "t"], ["author", "e. e. cummings"], ["title", "anyone lived in a pretty how town"], ["source", "http://www.poets.org/poetsorg/poem/anyone-lived-pretty-how-town"], ["body", "anyone lived in a pretty how town\n(with up so floating many bells down)\nspring summer autumn winter\nhe sang his didn’t he danced his did.\n\nWomen and men(both little and small)\ncared for anyone not at all\nthey sowed their isn’t they reaped their same\nsun moon stars rain\n\nchildren guessed(but only a few\nand down they forgot as up they grew\nautumn winter spring summer)\nthat noone loved him more by more\n\nwhen by now and tree by leaf\nshe laughed his joy she cried his grief\nbird by snow and stir by still\nanyone’s any was all to her\n\nsomeones married their everyones\nlaughed their cryings and did their dance\n(sleep wake hope and then)they\nsaid their nevers they slept their dream\n\nstars rain sun moon\n(and only the snow can begin to explain\nhow children are apt to forget to remember\nwith up so floating many bells down)\n\none day anyone died i guess\n(and noone stooped to kiss his face)\nbusy folk buried them side by side\nlittle by little and was by was\n\nall by all and deep by deep\nand more by more they dream their sleep\nnoone and anyone earth by april\nwish by spirit and if by yes.\n\nWomen and men(both dong and ding)\nsummer autumn winter spring\nreaped their sowing and went their came\nsun moon stars rain"], ["created_at", "2015-02-03 06:40:45.315879"], ["updated_at", "2015-02-03 06:40:45.315879"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "poems" ("published", "author", "title", "source", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["published", "t"], ["author", "Edgar Allan Poe"], ["title", "Evening Star"], ["source", "http://hellopoetry.com/poem/1698/evening-star/"], ["body", "’Twas noontide of summer,\nAnd midtime of night,\nAnd stars, in their orbits,\nShone pale, through the light\nOf the brighter, cold moon.\n’Mid planets her slaves,\nHerself in the Heavens,\nHer beam on the waves.\nI gazed awhile\nOn her cold smile;\nToo cold—too cold for me—\nThere passed, as a shroud,\nA fleecy cloud,\nAnd I turned away to thee,\nProud Evening Star,\nIn thy glory afar\nAnd dearer thy beam shall be;\nFor joy to my heart\nIs the proud part\nThou bearest in Heaven at night,\nAnd more I admire\nThy distant fire,\nThan that colder, lowly light."], ["created_at", "2015-02-03 06:40:45.326491"], ["updated_at", "2015-02-03 06:40:45.326491"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "poems" ("published", "author", "title", "source", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["published", "t"], ["author", "Randall Mann"], ["title", "Black Box"], ["source", "http://www.poetryfoundation.org/poem/249976"], ["body", "I was someone's\nhonor's student once,\na sticker, a star.\nI aced Home Ec and Geometry;\n \nI learned to stab a fork,\nsteer my mother's car.\nOld enough to work,\nI refreshed the salad bar\n \nat Steak & Ale,\nscarcity a line\nI couldn't fail.\nThe summers between university,\n \ninterned at AT&T,\nin the minority\noutreach they called Inroads.\nMy boss, Vicki, had two\n \nroommates, whom she\ncalled, simply, The Gays,\ncrashing on her floor.\nThat was before\n \nI was gay, I won't try to say\nwith a straight face.\nLike anyone really cares,\nI care. What I'm trying to say:\n \nall this prepared\nme for these squat blinking\noffice accessories.\nThe dry drinking\n \nafter the accidental reply-all.\nBy now there's a lot to lose.\nLittle by little, I have become\nso careful, no talk\n \nof politics, or orientation:\nI let them say, he's “a homosexual,”\nwithout an arch correction.\nAt a fondue buffet\n \nin Zurich, our dumb-\nfounded senior group\ndirector—when I let slip,\ndamn it, my trip\n \nwith a twenty-year-old—inquired,\nThey're always over seventeen,\nright? I told her of course,\ngod yes, and, seething, smiled,\n \nwhich I'm famous for.\nI didn't want to scare\nher. But I tell you,\nI'm keeping score.\n \nE-mail is no more\nthan a suicide\nI'd like to please recall.\nNote my suicide.\n \nI'm paid to multitask,\nscramble the life\nout of fun:\nMonday I will ask—\n \nevery dash a loaded gun,\nevery comma, a knife—\nyou to bury the black-box file."], ["created_at", "2015-02-03 06:40:45.328806"], ["updated_at", "2015-02-03 06:40:45.328806"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "poems" ("published", "author", "title", "source", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["published", "t"], ["author", "Pablo Neruda"], ["title", "Always"], ["source", "http://hellopoetry.com/poem/9910/always/"], ["body", "I am not jealous\nof what came before me.\n\nCome with a man \non your shoulders,\ncome with a hundred men in your hair,\ncome with a thousand men between your breasts and your feet,\ncome like a river\nfull of drowned men\nwhich flows down to the wild sea,\nto the eternal surf, to Time!\n\nBring them all\nto where I am waiting for you;\nwe shall always be alone,\nwe shall always be you and I\nalone on earth\nto start our life!"], ["created_at", "2015-02-03 06:40:45.330859"], ["updated_at", "2015-02-03 06:40:45.330859"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "poems" ("published", "author", "title", "source", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["published", "t"], ["author", "e.e. cummings"], ["title", "Humanity I Love You"], ["source", "http://hellopoetry.com/poem/1585/humanity-i-love-you/"], ["body", "Humanity i love you\nbecause you would rather black the boots of\nsuccess than enquire whose soul dangles from his\nwatch-chain which would be embarrassing for both\n\nparties and because you\nunflinchingly applaud all\nsongs containing the words country home and\nmother when sung at the old howard\n\nHumanity i love you because\nwhen you’re hard up you pawn your\nintelligence to buy a drink and when\nyou’re flush pride keeps\n\nyou from the pawn shop and\nbecause you are continually committing\nnuisances but more\nespecially in your own house\n\nHumanity i love you because you\nare perpetually putting the secret of\nlife in your pants and forgetting\nit’s there and sitting down\n\non it\nand because you are\nforever making poems in the lap\nof death Humanity\n\ni hate you"], ["created_at", "2015-02-03 06:40:45.333228"], ["updated_at", "2015-02-03 06:40:45.333228"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "poems" ("published", "author", "title", "source", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["published", "t"], ["author", "Emily Dickinson"], ["title", "Untitled"], ["source", "http://poetry.eserver.org/untitled.html"], ["body", "To die--takes just a little while--\nThey say it doesn't hurt--\nIt's only fainter--by degrees--\nAnd then--it's out of sight--\nA darker Ribbon--for a Day--\nA Crape upon the Hat--\nAnd then the pretty sunshine comes--\nAnd helps us to forget--\n\nThe absent--mystic--creature--\nThat but for love of us--\nHad gone to sleep--that soundest time--\nWithout the weariness--"], ["created_at", "2015-02-03 06:40:45.335523"], ["updated_at", "2015-02-03 06:40:45.335523"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "poems" ("published", "author", "title", "source", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["published", "t"], ["author", "T.S. Eliot"], ["title", "Little Gidding"], ["source", "http://poetry.eserver.org/little-gidding.txt"], ["body", "We shall not cease from exploration \nAnd the end of all our exploring \nWill be to arrive where we started \nAnd know the place for the first time.\nThrough the unknown, remembered gate\nWhen the last of earth left to discover\nIs that which was the beginning;\nAt the source of the longest river\nThe voice of the hidden waterfall\nAnd the children in the apple-tree\nNot known, because not looked for \nBut heard, half heard, in the stillness\nBetween the two waves of the sea.\nQuick now, here, now, always--\nA condition of complete simplicity\n(Costing not less than everything)\nAnd all shall be well and\nAll manner of things shall be well\nWhen the tongues of flame are in-folded\nInto the crowned knot of fire\nAnd the fire and the rose are one."], ["created_at", "2015-02-03 06:40:45.338097"], ["updated_at", "2015-02-03 06:40:45.338097"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "poems" ("published", "author", "title", "source", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["published", "t"], ["author", "Charles Bukowski"], ["title", "I Met A Genius"], ["source", "http://hellopoetry.com/poem/9394/i-met-a-genius/"], ["body", "I met a genius on the train\ntoday\nabout 6 years old,\nhe sat beside me\nand as the train \nran down along the coast\nwe came to the ocean\nand then he looked at me\nand said,\nit's not pretty.\n\nit was the first time I'd \nrealized \nthat."], ["created_at", "2015-02-03 06:40:45.340551"], ["updated_at", "2015-02-03 06:40:45.340551"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "poems" ("published", "author", "title", "source", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["published", "t"], ["author", "Shel Silverstein"], ["title", "Whatif"], ["source", "http://hellopoetry.com/poem/609/whatif/"], ["body", "Last night, while I lay thinking here,\nsome Whatifs crawled inside my ear\nand pranced and partied all night long\nand sang their same old Whatif song:\nWhatif I'm dumb in school?\nWhatif they've closed the swimming pool?\nWhatif I get beat up?\nWhatif there's poison in my cup?\nWhatif I start to cry?\nWhatif I get sick and die?\nWhatif I flunk that test?\nWhatif green hair grows on my chest?\nWhatif nobody likes me?\nWhatif a bolt of lightning strikes me?\nWhatif I don't grow talle?\nWhatif my head starts getting smaller?\nWhatif the fish won't bite?\nWhatif the wind tears up my kite?\nWhatif they start a war?\nWhatif my parents get divorced?\nWhatif the bus is late?\nWhatif my teeth don't grow in straight?\nWhatif I tear my pants?\nWhatif I never learn to dance?\nEverything seems well, and then\nthe nighttime Whatifs strike again!"], ["created_at", "2015-02-03 06:40:45.343633"], ["updated_at", "2015-02-03 06:40:45.343633"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "poems" ("published", "author", "title", "source", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["published", "f"], ["author", "Kelis"], ["title", "Milkshake"], ["source", "http://genius.com/Kelis-milkshake-lyrics"], ["body", "My milkshake brings all the boys to the yard\nAnd they're like, it's better than yours\nDamn right it's better than yours\nI can teach you, but I have to charge\n\nI know you want it\nThe thing that makes me\nWhat the guys go crazy for\nThey lose their minds\nThe way I wind\nI think its time\n\nI can see you're on it\nYou want me to teach thee\nTechniques that freaks these boys\nIt can't be bought\nJust know, thieves get caught\nWatch if your smart\n\nOh, once you get involved\nEveryone will look this way-so\nYou must maintain your charm\nSame time maintain your halo\nJust get the perfect blend\nPlus what you have within\nThen next his eyes are squint\nThen he's picked up your scent"], ["created_at", "2015-02-03 06:40:45.345973"], ["updated_at", "2015-02-03 06:40:45.345973"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "poems" ("published", "author", "title", "source", "body", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["published", "f"], ["author", "Edward Lear"], ["title", "There was an Old Man with a Beard"], ["source", "http://www.poetryfoundation.org/poem/175025"], ["body", "There was an Old Man with a beard\nWho said: 'It is just as I feared!\nTwo Owls and a Hen,\nFour Larks and a Wren,\nHave all built their nests in my beard'"], ["created_at", "2015-02-03 06:40:45.348489"], ["updated_at", "2015-02-03 06:40:45.348489"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[36mPoem Load (0.4ms)[0m  [1mSELECT "poems".* FROM "poems"[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "poems"
+  [1m[36mPoem Load (0.7ms)[0m  [1mSELECT  "poems".* FROM "poems"  ORDER BY "poems"."id" ASC LIMIT 1[0m
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-03 07:07:57 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PoemsController#index as HTML
+  Rendered poems/index.html.erb within layouts/application (30.9ms)
+Completed 500 Internal Server Error in 153ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Here are my posts!</h1>
+    2: 
+    3: <% @posts.each do |post| %>
+    4:   <h2><%= link_to(post.title, post_path(post)) %></h2>
+    5: <% end %>
+  app/views/poems/index.html.erb:3:in `_app_views_poems_index_html_erb__4260166863325420524_38204380'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (26.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-03 07:08:40 +0000
+Processing by PoemsController#index as HTML
+  [1m[35mPoem Load (0.5ms)[0m  SELECT "poems".* FROM "poems"
+  Rendered poems/index.html.erb within layouts/application (42.3ms)
+Completed 500 Internal Server Error in 96ms
+
+ActionView::Template::Error (undefined method `post_path' for #<#<Class:0x0000000496d148>:0x0000000708b900>):
+    1: <h1>Here are my posts!</h1>
+    2: 
+    3: <% @poems.each do |poem| %>
+    4:   <h2><%= link_to(poem.title, post_path(poem)) %></h2>
+    5: <% end %>
+  app/views/poems/index.html.erb:4:in `block in _app_views_poems_index_html_erb__4260166863325420524_59002400'
+  app/views/poems/index.html.erb:3:in `_app_views_poems_index_html_erb__4260166863325420524_59002400'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (10.4ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (32.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-03 07:08:53 +0000
+Processing by PoemsController#index as HTML
+  [1m[36mPoem Load (0.3ms)[0m  [1mSELECT "poems".* FROM "poems"[0m
+  Rendered poems/index.html.erb within layouts/application (51.4ms)
+Completed 500 Internal Server Error in 109ms
+
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x0000000496d148>:0x00000006a85038>):
+    1: <h1>Here are my posts!</h1>
+    2: 
+    3: <% @poems.each do |poem| %>
+    4:   <h2><%= link_to(post.title, post_path(poem)) %></h2>
+    5: <% end %>
+  app/views/poems/index.html.erb:4:in `block in _app_views_poems_index_html_erb__4260166863325420524_55834860'
+  app/views/poems/index.html.erb:3:in `_app_views_poems_index_html_erb__4260166863325420524_55834860'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.0ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (25.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-03 07:09:14 +0000
+Processing by PoemsController#index as HTML
+  [1m[35mPoem Load (0.5ms)[0m  SELECT "poems".* FROM "poems"
+  Rendered poems/index.html.erb within layouts/application (32.4ms)
+Completed 500 Internal Server Error in 84ms
+
+ActionView::Template::Error (undefined method `post_path' for #<#<Class:0x0000000496d148>:0x000000067e41f8>):
+    1: <h1>Here are my poems!</h1>
+    2: 
+    3: <% @poems.each do |post| %>
+    4:   <h2><%= link_to(post.title, post_path(post)) %></h2>
+    5: <% end %>
+  app/views/poems/index.html.erb:4:in `block in _app_views_poems_index_html_erb__4260166863325420524_54456780'
+  app/views/poems/index.html.erb:3:in `_app_views_poems_index_html_erb__4260166863325420524_54456780'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.0ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (27.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-03 07:09:26 +0000
+Processing by PoemsController#index as HTML
+  [1m[36mPoem Load (0.3ms)[0m  [1mSELECT "poems".* FROM "poems"[0m
+  Rendered poems/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 892ms (Views: 891.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/poems/1" for 10.0.2.2 at 2015-02-03 07:09:29 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPoem Load (0.3ms)[0m  SELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered poems/show.html.erb within layouts/application (26.9ms)
+Completed 500 Internal Server Error in 121ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <h1><%= @post.title %></h1>
+    2: 
+    3: <%= simple_format(@post.body) %>
+    4: 
+  app/views/poems/show.html.erb:1:in `_app_views_poems_show_html_erb___2599112827063198864_51550980'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (30.7ms)
+
+
+Started GET "/poems/1" for 10.0.2.2 at 2015-02-03 07:09:29 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPoem Load (0.1ms)[0m  [1mSELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered poems/show.html.erb within layouts/application (20.7ms)
+Completed 500 Internal Server Error in 80ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <h1><%= @post.title %></h1>
+    2: 
+    3: <%= simple_format(@post.body) %>
+    4: 
+  app/views/poems/show.html.erb:1:in `_app_views_poems_show_html_erb___2599112827063198864_47324760'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.5ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (28.7ms)
+
+
+Started GET "/poems/1" for 10.0.2.2 at 2015-02-03 07:10:01 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPoem Load (0.2ms)[0m  SELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered poems/show.html.erb within layouts/application (21.0ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <h1><%= @poem.title %></h1>
+    2: 
+    3: <%= simple_format(@poem.body) %>
+    4: 
+  app/views/poems/show.html.erb:1:in `_app_views_poems_show_html_erb___2599112827063198864_49582860'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (29.0ms)
+
+
+Started GET "/poems/1" for 10.0.2.2 at 2015-02-03 07:10:09 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPoem Load (0.2ms)[0m  [1mSELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered poems/show.html.erb within layouts/application (21.3ms)
+Completed 500 Internal Server Error in 75ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <h1><%= @poem.title %></h1>
+    2: 
+    3: <%= simple_format(@poem.body) %>
+    4: 
+  app/views/poems/show.html.erb:1:in `_app_views_poems_show_html_erb___2599112827063198864_49582860'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (11.4ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (30.5ms)
+
+
+Started GET "/poems/1" for 10.0.2.2 at 2015-02-03 07:10:36 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPoem Load (0.3ms)[0m  SELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered poems/show.html.erb within layouts/application (19.6ms)
+Completed 500 Internal Server Error in 74ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <h1><%= @poem.title %></h1>
+    2: 
+    3: <%= simple_format(@poem.body) %>
+    4: 
+  app/views/poems/show.html.erb:1:in `_app_views_poems_show_html_erb___2599112827063198864_55375880'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (29.5ms)
+
+
+Started GET "/poems/2" for 10.0.2.2 at 2015-02-03 07:10:40 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPoem Load (0.2ms)[0m  [1mSELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered poems/show.html.erb within layouts/application (30.9ms)
+Completed 500 Internal Server Error in 96ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <h1><%= @poem.title %></h1>
+    2: 
+    3: <%= simple_format(@poem.body) %>
+    4: 
+  app/views/poems/show.html.erb:1:in `_app_views_poems_show_html_erb___2599112827063198864_48925100'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (10.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (28.0ms)
+
+
+Started GET "/poems/2" for 10.0.2.2 at 2015-02-03 07:10:41 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPoem Load (0.2ms)[0m  SELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered poems/show.html.erb within layouts/application (19.7ms)
+Completed 500 Internal Server Error in 75ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <h1><%= @poem.title %></h1>
+    2: 
+    3: <%= simple_format(@poem.body) %>
+    4: 
+  app/views/poems/show.html.erb:1:in `_app_views_poems_show_html_erb___2599112827063198864_55375880'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (11.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (37.5ms)
+
+
+Started GET "/poems/2" for 10.0.2.2 at 2015-02-03 07:11:11 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPoem Load (0.2ms)[0m  [1mSELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered poems/show.html.erb within layouts/application (18.7ms)
+Completed 500 Internal Server Error in 71ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <h1><%= @poem.title %></h1>
+    2: 
+    3: <%= simple_format(@poem.body) %>
+    4: 
+  app/views/poems/show.html.erb:1:in `_app_views_poems_show_html_erb___2599112827063198864_55375880'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.3ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (26.0ms)
+
+
+Started GET "/poems/2" for 10.0.2.2 at 2015-02-03 07:14:16 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPoem Load (0.2ms)[0m  SELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered poems/show.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 238ms (Views: 213.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/poems" for 10.0.2.2 at 2015-02-03 07:14:19 +0000
+Processing by PoemsController#index as HTML
+  [1m[36mPoem Load (0.5ms)[0m  [1mSELECT "poems".* FROM "poems"[0m
+  Rendered poems/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 206ms (Views: 204.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/poems/3" for 10.0.2.2 at 2015-02-03 07:14:20 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPoem Load (0.3ms)[0m  SELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered poems/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 210ms (Views: 208.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/poems" for 10.0.2.2 at 2015-02-03 07:14:22 +0000
+Processing by PoemsController#index as HTML
+  [1m[36mPoem Load (0.3ms)[0m  [1mSELECT "poems".* FROM "poems"[0m
+  Rendered poems/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 200ms (Views: 199.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/poems/11" for 10.0.2.2 at 2015-02-03 07:15:05 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mPoem Load (0.2ms)[0m  SELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered poems/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 222ms (Views: 220.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/poems" for 10.0.2.2 at 2015-02-03 07:15:09 +0000
+Processing by PoemsController#index as HTML
+  [1m[36mPoem Load (0.2ms)[0m  [1mSELECT "poems".* FROM "poems"[0m
+  Rendered poems/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 212ms (Views: 211.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/poems" for 10.0.2.2 at 2015-02-04 02:09:36 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PoemsController#index as HTML
+  [1m[35mPoem Load (0.5ms)[0m  SELECT "poems".* FROM "poems"
+  Rendered poems/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 431ms (Views: 391.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/poems/4" for 10.0.2.2 at 2015-02-04 02:09:39 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPoem Load (0.3ms)[0m  [1mSELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered poems/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 232ms (Views: 201.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/poems" for 10.0.2.2 at 2015-02-04 02:09:41 +0000
+Processing by PoemsController#index as HTML
+  [1m[35mPoem Load (0.3ms)[0m  SELECT "poems".* FROM "poems"
+  Rendered poems/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 206ms (Views: 205.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/poems/8" for 10.0.2.2 at 2015-02-04 02:09:42 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mPoem Load (0.3ms)[0m  [1mSELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  Rendered poems/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 200ms (Views: 198.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/poems" for 10.0.2.2 at 2015-02-04 02:09:44 +0000
+Processing by PoemsController#index as HTML
+  [1m[35mPoem Load (0.3ms)[0m  SELECT "poems".* FROM "poems"
+  Rendered poems/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 197ms (Views: 196.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/poems/10" for 10.0.2.2 at 2015-02-04 02:09:46 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mPoem Load (0.3ms)[0m  [1mSELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered poems/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 199ms (Views: 196.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/poems" for 10.0.2.2 at 2015-02-04 02:09:47 +0000
+Processing by PoemsController#index as HTML
+  [1m[35mPoem Load (0.4ms)[0m  SELECT "poems".* FROM "poems"
+  Rendered poems/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 228ms (Views: 227.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/poems/11" for 10.0.2.2 at 2015-02-04 02:09:48 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mPoem Load (0.2ms)[0m  [1mSELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  Rendered poems/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 210ms (Views: 208.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/poems" for 10.0.2.2 at 2015-02-04 02:09:50 +0000
+Processing by PoemsController#index as HTML
+  [1m[35mPoem Load (0.3ms)[0m  SELECT "poems".* FROM "poems"
+  Rendered poems/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 199ms (Views: 197.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/poems/9" for 10.0.2.2 at 2015-02-04 02:09:51 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mPoem Load (0.2ms)[0m  [1mSELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  Rendered poems/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 204ms (Views: 202.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/poems" for 10.0.2.2 at 2015-02-04 02:09:52 +0000
+Processing by PoemsController#index as HTML
+  [1m[35mPoem Load (0.3ms)[0m  SELECT "poems".* FROM "poems"
+  Rendered poems/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 192ms (Views: 191.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/poems/5" for 10.0.2.2 at 2015-02-04 02:09:54 +0000
+Processing by PoemsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPoem Load (0.2ms)[0m  [1mSELECT  "poems".* FROM "poems" WHERE "poems"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered poems/show.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 208ms (Views: 206.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/poems" for 10.0.2.2 at 2015-02-04 02:09:55 +0000
+Processing by PoemsController#index as HTML
+  [1m[35mPoem Load (0.3ms)[0m  SELECT "poems".* FROM "poems"
+  Rendered poems/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 189ms (Views: 187.9ms | ActiveRecord: 0.3ms)
